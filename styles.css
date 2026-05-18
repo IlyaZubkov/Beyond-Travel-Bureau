@@ -830,6 +830,7 @@ select {
 .contact-band {
   background: linear-gradient(135deg, #bf8b30 0%, #d2a24b 45%, #c69439 100%);
   padding: 22px 24px 38px;
+  overflow-x: hidden;
 }
 
 .contact-grid {
@@ -845,6 +846,8 @@ select {
   grid-template-columns: 52px 1fr auto;
   gap: 16px;
   align-items: center;
+  width: 100%;
+  min-width: 0;
   min-height: 92px;
   padding: 18px 20px;
   border: 1px solid rgba(255, 255, 255, 0.55);
@@ -898,6 +901,7 @@ select {
 .contact-value {
   font-size: 0.98rem;
   font-weight: 600;
+  line-height: 1.35;
   letter-spacing: -0.03em;
   overflow-wrap: anywhere;
   word-break: break-word;
@@ -951,6 +955,10 @@ select {
 
   .faq-mobile-title {
     display: block;
+  }
+
+  .contact-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -1092,5 +1100,17 @@ select {
 
   .contact-arrow {
     display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .contact-band {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .contact-value {
+    font-size: 0.94rem;
+    letter-spacing: -0.02em;
   }
 }
