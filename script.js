@@ -45,7 +45,7 @@ const jetClasses = [
     passengers: "6-9",
     cabinHeight: "145 cm",
     suitcases: "6",
-    hourlyRate: "from 4,000 EUR",
+    hourlyRate: "from $4,350",
   },
   {
     name: "Entry Level",
@@ -54,7 +54,7 @@ const jetClasses = [
     passengers: "4-6",
     cabinHeight: "147 cm",
     suitcases: "4",
-    hourlyRate: "from 4,500 EUR",
+    hourlyRate: "from $4,900",
   },
   {
     name: "Light",
@@ -63,7 +63,7 @@ const jetClasses = [
     passengers: "6-8",
     cabinHeight: "150 cm",
     suitcases: "5",
-    hourlyRate: "from 5,000 EUR",
+    hourlyRate: "from $5,450",
   },
   {
     name: "Super Light",
@@ -72,7 +72,7 @@ const jetClasses = [
     passengers: "6-8",
     cabinHeight: "175 cm",
     suitcases: "6",
-    hourlyRate: "from 7,000 EUR",
+    hourlyRate: "from $7,650",
   },
   {
     name: "Midsize",
@@ -81,7 +81,7 @@ const jetClasses = [
     passengers: "6-9",
     cabinHeight: "155 cm",
     suitcases: "7",
-    hourlyRate: "from 10,000 EUR",
+    hourlyRate: "from $10,900",
   },
   {
     name: "Super Midsize",
@@ -90,7 +90,7 @@ const jetClasses = [
     passengers: "8-10",
     cabinHeight: "188 cm",
     suitcases: "8",
-    hourlyRate: "from 10,000 EUR",
+    hourlyRate: "from $10,900",
   },
   {
     name: "Heavy",
@@ -99,7 +99,7 @@ const jetClasses = [
     passengers: "10-16",
     cabinHeight: "188 cm",
     suitcases: "10",
-    hourlyRate: "from 13,000 EUR",
+    hourlyRate: "from $14,150",
   },
   {
     name: "Ultra Long Range",
@@ -108,7 +108,7 @@ const jetClasses = [
     passengers: "12-16",
     cabinHeight: "188 cm",
     suitcases: "12",
-    hourlyRate: "from 15,000 EUR",
+    hourlyRate: "from $16,350",
   },
   {
     name: "VIP Airliner",
@@ -117,7 +117,7 @@ const jetClasses = [
     passengers: "16-50",
     cabinHeight: "210 cm",
     suitcases: "30",
-    hourlyRate: "from 25,000 EUR",
+    hourlyRate: "from $27,250",
   },
 ];
 
@@ -148,7 +148,7 @@ const routes = [
     toCode: "LFPB",
     toCity: "Paris",
     flightTime: "0h 55m",
-    price: "6,000 EUR",
+    price: "$6,550",
   },
   {
     category: "Light",
@@ -157,7 +157,7 @@ const routes = [
     toCode: "LIRA",
     toCity: "Rome",
     flightTime: "2h 55m",
-    price: "16,150 EUR",
+    price: "$17,600",
   },
   {
     category: "Midsize",
@@ -166,7 +166,7 @@ const routes = [
     toCode: "EGCC",
     toCity: "Manchester",
     flightTime: "3h 50m",
-    price: "27,850 EUR",
+    price: "$30,350",
   },
   {
     category: "Super Midsize",
@@ -175,7 +175,7 @@ const routes = [
     toCode: "OTBD",
     toCity: "Doha",
     flightTime: "5h 20m",
-    price: "46,800 EUR",
+    price: "$51,000",
   },
   {
     category: "Heavy",
@@ -184,7 +184,7 @@ const routes = [
     toCode: "OOMS",
     toCity: "Muscat",
     flightTime: "6h 30m",
-    price: "57,500 EUR",
+    price: "$62,700",
   },
   {
     category: "Ultra Long Range",
@@ -193,7 +193,7 @@ const routes = [
     toCode: "KVNY",
     toCity: "Los Angeles",
     flightTime: "13h 05m",
-    price: "135,000 EUR",
+    price: "$147,150",
   },
 ];
 
