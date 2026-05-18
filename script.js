@@ -148,7 +148,7 @@ const routes = [
     toCode: "LFPB",
     toCity: "Paris",
     flightTime: "0h 55m",
-    price: "$6,550",
+    price: "$6,500",
   },
   {
     category: "Light",
@@ -166,7 +166,7 @@ const routes = [
     toCode: "EGCC",
     toCity: "Manchester",
     flightTime: "3h 50m",
-    price: "$30,350",
+    price: "$30,500",
   },
   {
     category: "Super Midsize",
@@ -193,7 +193,7 @@ const routes = [
     toCode: "KVNY",
     toCity: "Los Angeles",
     flightTime: "13h 05m",
-    price: "$147,150",
+    price: "$147,000",
   },
 ];
 
