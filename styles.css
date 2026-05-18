@@ -884,6 +884,7 @@ select {
 .contact-copy {
   display: grid;
   gap: 4px;
+  min-width: 0;
 }
 
 .contact-label {
@@ -898,6 +899,8 @@ select {
   font-size: 0.98rem;
   font-weight: 600;
   letter-spacing: -0.03em;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .contact-arrow {
